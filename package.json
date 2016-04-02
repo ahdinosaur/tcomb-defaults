@@ -1,0 +1,29 @@
+{
+  "name": "tcomb-defaults",
+  "version": "1.0.0",
+  "description": "default properties in tcomb structs",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "start": "node-dev example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/tcomb-defaults.git"
+  },
+  "keywords": [],
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/tcomb-defaults/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/tcomb-defaults#readme",
+  "devDependencies": {
+    "node-dev": "^3.1.0",
+    "npm-run-all": "^1.6.0",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "tcomb": "^3.0.0"
+  }
+}
