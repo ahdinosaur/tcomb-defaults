@@ -8,6 +8,7 @@ function defaults (Type, defaultProps) {
 
   DefaultType.is = Type.is
   DefaultType.meta = Type.meta
+  DefaultType.extend = Type.extend
 
   return DefaultType
 }
