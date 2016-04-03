@@ -21,11 +21,13 @@ function setDefaults (Type, defaultProps) {
         Tc.Nil.is(sofar[next]) &&
         !Tc.Nil.is(setDefault)
       ) {
-        var defaultProp = typeof setDefault === 'function' ?
+        var defaultProp = Tc.Function.is(setDefault) ?
           setDefault.call(sofar) : setDefault
-        return Type.update(sofar, {
-          [next]: { $set: defaultProp }
-        })
+
+        var patch = {}
+        patch[next] = { $set: defaultProp }
+
+        return Type.update(sofar, patch)
       }
       return sofar
     }, props)
