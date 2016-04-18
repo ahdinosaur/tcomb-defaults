@@ -1,6 +1,6 @@
 {
   "name": "tcomb-defaults",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "default properties in tcomb structs",
   "main": "index.js",
   "scripts": {
