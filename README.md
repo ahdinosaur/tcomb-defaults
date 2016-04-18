@@ -19,7 +19,7 @@ npm install --save tcomb-defaults
 
 ## example
 
-see [test](./test)
+see [test](./test.js)
 
 ## license
 
